@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'ellipseFive': "url('/src/assets/Ellips-5.png')",
+      }
+    }
+  }, 
   daisyui: {
     themes: [
       {
