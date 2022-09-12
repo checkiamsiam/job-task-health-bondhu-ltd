@@ -46,10 +46,10 @@ const Banner = () => {
               <div className="bg-ellipseFive bg-cover bg-center bg-no-repeat">
                 <img src={bannerImage} alt="Img" height="auto" className="" />
               </div>
-              <div className="sm:absolute left-0 bottom-32 cursor-pointer">
+              <div className="sm:absolute -left-10 bottom-32 cursor-pointer">
                 <img src={checkupButton} alt="" />
               </div>
-              <div className="p-3 bg-base-100 sm:mt-0 mt-4 rounded-lg sm:absolute bottom-0 right-0 z-20">
+              <div className="p-3 bg-base-100 sm:mt-0 mt-4 rounded-lg sm:absolute bottom-0 -right-10 z-20">
                   <h1 className="mb-3 font-semibold">Meet Our Doctors</h1>
                   <img src={doctors} alt="" />
                   <div className="w-full h-3 my-1 bg-gradient-to-r from-primary to-white rounded-lg"></div>
