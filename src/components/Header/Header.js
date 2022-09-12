@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 w-full">
+    <div className="">
       <div className="lg:px-32 md:px-20 sm:px-10 px-5">
         <div className="navbar bg-transparent">
           <div className="navbar-start">
@@ -34,7 +34,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <a className="normal-case text-xl font-bold"><span className="text-primary">Doc</span><span className="text-secondary">mic</span></a>
+            <a className="normal-case text-2xl font-bold"><span className="text-primary">Doc</span><span className="text-secondary">mic</span></a>
           </div>
           <div className="navbar-center hidden xl:flex">
             <div className="flex lg:text-lg justify-center items-center gap-5 text-neutral">

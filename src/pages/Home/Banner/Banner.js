@@ -7,7 +7,7 @@ import ornament from '../../../assets/Ornament19.png'
 
 const Banner = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center lg:pt-0 pt-20 ">
+    <div className="flex justify-center items-center md:pt-10 ">
       <div>
         <div className="lg:px-32 md:px-20 sm:px-10 px-5">
           <div className="lg:flex gap-10">
