@@ -4,6 +4,7 @@ import EnsureTreatment from './EnsureTreatment/EnsureTreatment';
 import FAQ from './FAQ/FAQ';
 import HospitalFeature from './HospitalFeature/HospitalFeature';
 import Services from './Services/Services';
+import Testimonial from './Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <EnsureTreatment></EnsureTreatment>
       <HospitalFeature></HospitalFeature>
       <FAQ></FAQ>
+      <Testimonial></Testimonial>
     </div>
   );
 };
