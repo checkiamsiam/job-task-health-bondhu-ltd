@@ -4,7 +4,6 @@ import nextButton from "../../../assets/next].png";
 import boy from "../../../assets/siam.png";
 import ornament57 from "../../../assets/Ornament57.png";
 import ornament24 from "../../../assets/Ornament24.png";
-import ornament2 from "../../../assets/Ornament 2.jpg";
 import Slider from "react-slick";
 
 const Testimonial = () => {
@@ -28,11 +27,11 @@ const Testimonial = () => {
           <div className="cursor-pointer">
             <img src={prevButton} alt="" />
           </div>
-          <div className="max-w-3xl">
+          <div className="lg:max-w-3xl max-w-md">
             <Slider {...settings} ref={slideRef}>
               <div>
                 <div className="relative ">
-                  <div className="flex bg-[#FFFFFF]  rounded-lg p-7 z-40">
+                  <div className="lg:flex bg-[#FFFFFF]  rounded-lg p-7 z-40">
                     <div className="w-2/3">
                       <h1 className="text-2xl font-semibold text-accent z-50">David Jeams</h1>
                       <h5 className="text-xl font-semibold z-50">Pratient</h5>
