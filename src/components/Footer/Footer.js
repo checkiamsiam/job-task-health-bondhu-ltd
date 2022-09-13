@@ -8,8 +8,8 @@ import google from '../../assets/Vector.png'
 const Footer = () => {
   return (
     <div className="lg:px-32 md:px-20 sm:px-10 px-5 bg-[#dfe6f1] ">
-      <footer className="flex justify-between py-10 text-base-content">
-      <div className="w-2/5">
+      <footer className="md:flex justify-between py-10 text-base-content">
+      <div className="md:w-2/5">
         <h1>
           <a className="normal-case text-2xl font-bold">
             <span className="text-primary">Doc</span>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <p className="mt-10 font-semibold">Copyright @222 Medicom All Rights Reserved</p>
       </div>
-      <div className="flex flex-col gap-2 w-1/5">
+      <div className="flex flex-col gap-2 lg:w-1/5 md:mt-0 mt-10">
         <span className="text-secondary text-lg font-semibold">Quick Links</span>
         <a className="link link-hover font-semibold">About Us</a>
         <a className="link link-hover font-semibold">Our Pricing</a>
@@ -44,7 +44,7 @@ const Footer = () => {
         <a className="link link-hover font-semibold">Appointment</a>
         <a className="link link-hover font-semibold">Privacy Policy</a>
       </div>
-      <div className="flex flex-col  gap-2 w-1/5">
+      <div className="flex flex-col  gap-2 lg:w-1/5  ">
         <span className="footer-title">
           <br />
         </span>
@@ -54,7 +54,7 @@ const Footer = () => {
         <a className="link link-hover font-semibold">Careers</a>
         <a className="link link-hover font-semibold">Contact Us</a>
       </div>
-      <div className="flex flex-col  gap-2  w-[25%]">
+      <div className="flex flex-col  gap-2  lg:w-[25%]  md:mt-0 mt-10">
         <span className="text-secondary text-lg font-semibold">Opening Hours</span>
         <a className="link link-hover font-semibold text-neutral">
           <span className="text-primary"> Mon- Tue </span>&nbsp; &nbsp; &nbsp;08:00 AM- 05:00 PM
