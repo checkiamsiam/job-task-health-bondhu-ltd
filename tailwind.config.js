@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'ellipseFive': "url('/src/assets/Ellips-5.png')",
+        'icon': "url('/src/assets/Ellipse16.png')",
       }
     }
   }, 
