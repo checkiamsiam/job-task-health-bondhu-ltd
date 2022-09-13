@@ -7,7 +7,7 @@ import google from '../../assets/Vector.png'
 
 const Footer = () => {
   return (
-    <div className="lg:px-32 md:px-20 sm:px-10 px-5 bg-[#dfe6f1] ">
+    <div className="lg:px-32 md:px-20 sm:px-10 px-5 bg-[#E6F3F5] ">
       <footer className="md:flex justify-between py-10 text-base-content">
       <div className="md:w-2/5">
         <h1>
