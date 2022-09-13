@@ -37,7 +37,7 @@ const Header = () => {
             <a className="normal-case text-2xl font-bold"><span className="text-primary">Doc</span><span className="text-secondary">mic</span></a>
           </div>
           <div className="navbar-center hidden xl:flex">
-            <div className="flex lg:text-lg justify-center items-center gap-5 text-neutral">
+            <div className="flex xl:text-lg font-semibold  justify-center items-center gap-5 text-neutral">
               <a className="text-primary transition duration-500" href="">Home</a>
               <a className="hover:text-primary transition duration-500" href="">About</a>
               <a className="hover:text-primary transition duration-500" href="">Departments</a>
