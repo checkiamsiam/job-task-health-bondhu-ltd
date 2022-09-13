@@ -1,10 +1,20 @@
 import React from "react";
 import sidebarImage from "../../../assets/Frame21.png";
+import toExpert from "../../../assets/Group29.png";
 
 const FAQ = () => {
   return (
     <div className="lg:px-32 md:px-20 sm:px-10 px-5 mt-10">
       <div className="lg:flex justify-center">
+        <div className="lg:w-1/2 w-full order-1 flex lg:justify-end justify-center items-center relative">
+          <div>
+            <img src={sidebarImage} alt="" />
+          </div>
+          <div className="absolute cursor-pointer lg:bottom-36 bottom-20 lg:left-36 left-0">
+            <img src={toExpert} alt=""/>
+          </div>
+        </div>
+
         <div className="lg:w-1/2 flex items-center">
           <div className="py-16">
             <h5 className="text-secondary sm:text-xl pl-4">FAQ Questions</h5>
@@ -40,12 +50,6 @@ const FAQ = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum quas, </p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="lg:w-1/2 w-full flex justify-center items-center ">
-          <div>
-            <img src={sidebarImage} alt="" />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const HospitalFeature = () => {
   return (
     <div className="lg:px-32 md:px-20 sm:px-10 px-5 mt-10">
       <div className="lg:flex">
-        <div className="lg:w-2/5 w-full flex  items-center ">
+        <div className="lg:w-2/5 w-full flex lg:justify-start justify-center items-center ">
           <div>
           <img src={sidebarImage} alt="" />
           </div>
